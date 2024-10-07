@@ -11,7 +11,7 @@ function App() {
   const searchLoc = (event) => {
     if (event.key === 'Enter') {
       axios.get(url).then((res) => {
-        setLocation(res.data)
+        // setLocation(res.data)
         console.log(res.data)
       }).catch((error) => {
         // Handle the error and show an alert
