@@ -23,7 +23,7 @@ function App() {
 
 
   }
-  // const url = `https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=36972fddc4b90a843600ed2b90203164 `
+  const url = `https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=36972fddc4b90a843600ed2b90203164 `
 
   return (
 
